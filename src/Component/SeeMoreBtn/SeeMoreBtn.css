@@ -1,0 +1,9 @@
+.button{
+  height: 50px;
+  border-radius: 10px !important;
+}
+
+.btn-div{
+  display: flex;
+  justify-content: center;
+}

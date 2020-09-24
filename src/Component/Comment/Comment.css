@@ -1,0 +1,8 @@
+.comment{
+  max-width: 600px;
+  margin: 5px auto;
+  padding: 10px;
+  color: white;
+  background: black;
+  border-radius: 10px;
+}
