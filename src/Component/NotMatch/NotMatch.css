@@ -1,0 +1,11 @@
+.not-match {
+  text-align: center;
+  color: white;
+  font-size: 200px;
+}
+
+.not-match-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

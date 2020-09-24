@@ -8,6 +8,7 @@ import {
   Route
 } from "react-router-dom";
 import PostDetail from './Component/PostDetail/PostDetail';
+import NotMatch from './Component/NotMatch/NotMatch';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route exact path="/">
             <Home/>
+          </Route>
+          <Route path="*">
+            <NotMatch/>
           </Route>
         </Switch>
       </Router>
